@@ -490,15 +490,18 @@ img {
   
 }
 .skills__css{
-  width: 70%;
+  width: 90%;
 
 }
 .skills__js{
-  width: 50%;
+  width: 80%;
 
 }
+.skills__node{
+  width: 80%;
+}
 .skills__illustrator{
-  width: 50%;
+  width: 70%;
 
 }
 
