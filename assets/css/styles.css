@@ -80,8 +80,6 @@ body.dark-theme{
    --input-color: hsl(var(--hue-color), 29%, 16%);
    --body-color: hsl(var(--hue-color), 28%, 12%);
    --container-color: hsl(var(--hue-color), 29%, 16%);
-   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 
 }
 /*========== Button Dark/Light ==========*/
@@ -450,7 +448,7 @@ img {
   color: var(--text-color-light);
 }
 
-.skills__arrow{
+.skills__arrow {
   margin-left: auto;
   transition: 0.4s;
 }
@@ -459,7 +457,7 @@ img {
   padding-left: 2.7rem;
 }
 
-.skills__titles{
+.skills__title {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
@@ -490,18 +488,15 @@ img {
   
 }
 .skills__css{
-  width: 90%;
+  width: 70%;
 
 }
 .skills__js{
-  width: 80%;
+  width: 50%;
 
 }
-.skills__node{
-  width: 80%;
-}
 .skills__illustrator{
-  width: 70%;
+  width: 50%;
 
 }
 
@@ -883,7 +878,7 @@ img {
   background-color: var(--scroll-bar-color);
   border-radius: .5rem;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrllbar-thumb{
   background-color: var(--scroll-thumb-color);
   border-radius: .5rem;
 }
